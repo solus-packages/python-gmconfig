@@ -1,0 +1,14 @@
+name       : python-gmconfig
+version    : 1.0.1
+release    : 1
+source     :
+    - https://gitlab.com/gabmus/python-gmconfig/-/archive/1.0.1/python-gmconfig-1.0.1.tar.bz2 : 4ac2379d9be5fc579ca0c9921011ab1eb2496602a0e881dcd7f0861491e9d57b
+license    : GPL-3.0
+component  : programming.python
+summary    : Simple JSON based configuration file manager for python 3.x
+description: |
+    Simple JSON based configuration file manager for python 3.x.
+setup      : |
+    %python3_setup
+install    : |
+    %python3_install
